@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 body {
-  background-color: black;
+  background-color: #0b0c10;
   color: white;
 }
 .home-background {
@@ -16,7 +16,7 @@ body {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  border-bottom: solid #66fcf1;
+  border-bottom: solid #c5c6c7 5px;
 }
 .home-section {
   display: flex;
@@ -42,6 +42,7 @@ body {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-site {
@@ -60,4 +61,25 @@ body {
 }
 .visit-site-btn {
   padding: 50px;
+}
+/* .container {
+  padding: 20px;
+} */
+.all-modals-container {
+  background-color: #45a29e;
+  /* padding: 20px; */
+  /* padding-left: 50; */
+  padding-bottom: 20px;
+  border-radius: 0px 0px 30px 15px ;
+  color: #1f2833;
+}
+.all-modals-ul {
+  padding-left: 50px;
+}
+.all-modals-ul li {
+  padding: 5px;
+  font-weight: bold;
+}
+.all-modals-heading {
+  padding: 20px;
 }
