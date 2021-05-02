@@ -131,3 +131,23 @@ body {
 .r-image {
   width: 200px;
 }
+@media only screen and (max-width: 420px) {
+  .v2-p-image-container,
+  .v4-p-image-container,
+  .r-p-image-container {
+    flex-direction: column;
+  }
+  /* .v2-image,
+  .v4-image,
+  .r-image {
+    padding: 20px;
+  } */
+ .image-container{
+   /* padding: 20px; */
+   /* background-color: #fff; */
+   /* padding-left: 20px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+}
